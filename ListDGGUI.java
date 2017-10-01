@@ -846,7 +846,7 @@ public class ListDG extends JPanel
 
 		public void run() 
 		{
-			//JFrame.setDefaultLookAndFeelDecorated(true);// 将组建外观设置为Java外观
+			 
 			JFrame frame = new JFrame();
 			frame.setLayout(null);
 			frame.setContentPane(new ListDG());
