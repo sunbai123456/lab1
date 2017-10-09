@@ -1,0 +1,30 @@
+digraph path1{
+worlds;
+seek;
+life;
+out;
+and;
+civilizations;
+new;
+explore;
+strange;
+the;
+truth;
+to;
+worlds->to[ label = "2" ];
+seek->out[ label = "2", color="red" ];
+life->and[ label = "1" ];
+out->new[ label = "1", color="red" ];
+out->the[ label = "1" ];
+and->new[ label = "1" ];
+civilizations->to[ label = "1" ];
+new->worlds[ label = "2" ];
+new->life[ label = "1" ];
+new->civilizations[ label = "1" ];
+explore->strange[ label = "2" ];
+strange->new[ label = "2" ];
+the->truth[ label = "1" ];
+to->explore[ label = "2" ];
+to->seek[ label = "2", color="red" ];
+to->to[ label = "1" ];
+}
